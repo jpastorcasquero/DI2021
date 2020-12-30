@@ -15,10 +15,10 @@ public class PruebaGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-
-    public PruebaGit() {
-    }
-    
+        String color="";
+        String matricula="";
+        Coche coche=new Coche(color,matricula);
+        coche.hashCode();
+    }  
 }
+    

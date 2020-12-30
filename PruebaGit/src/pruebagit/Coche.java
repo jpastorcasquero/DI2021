@@ -19,6 +19,10 @@ public class Coche {
         
     }
 
+    Coche(String color, String matricula) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public int hashCode() {
         int hash = 7;
